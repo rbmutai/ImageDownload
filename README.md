@@ -8,6 +8,11 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+    ```Swift
+        let imageurl="https://avatars.githubusercontent.com/u/5729345?s=96&v=4"
+        let remoteimage=ImageDownload(frame: CGRect(x: 10, y: 10, width: 100, height: 100))
+        remoteimage.downloadedFrom(link: imageurl, contentMode: .scaleAspectFit)
+    ```
 
 ## Requirements
 
@@ -22,7 +27,7 @@ pod 'ImageDownload'
 
 ## Author
 
-5929341, rbmutai@gmail.com
+Robert Mutai
 
 ## License
 

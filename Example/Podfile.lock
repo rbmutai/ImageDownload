@@ -1,0 +1,16 @@
+PODS:
+  - ImageDownload (0.1.0)
+
+DEPENDENCIES:
+  - ImageDownload (from `../`)
+
+EXTERNAL SOURCES:
+  ImageDownload:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImageDownload: e75b221759e1f2ce55a2e49a58e3422b1d9bc95b
+
+PODFILE CHECKSUM: 43c0e8cafa05f2b09f51eb5167d40ba7b7415f5d
+
+COCOAPODS: 1.11.2
