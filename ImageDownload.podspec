@@ -28,7 +28,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
   s.swift_versions = '5.0'
-  s.source_files = 'ImageDownload/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
+  #s.source_files = 'ImageDownload/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ImageDownload' => ['ImageDownload/Assets/*.png']

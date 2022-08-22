@@ -137,7 +137,7 @@
 			children = (
 				9F4AC8DB7E59B482BBAC7F7F8772ED1B /* Pod */,
 				1DAEC732D4FD2990514E420DE8D6B5BB /* Support Files */,
-				7105378E28B3B175006FE561 /* ImageDownload.swift */,
+				7105379028B3BC81006FE561 /* Classes */,
 			);
 			name = ImageDownload;
 			path = ../..;
@@ -149,6 +149,14 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7105379028B3BC81006FE561 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7105378E28B3B175006FE561 /* ImageDownload.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		96EAA91868C575B69E7F0BCE4C7202F0 /* Products */ = {
